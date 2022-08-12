@@ -1,0 +1,13 @@
+Page 134 - A method defined in a class C should only call:
+                            - Its parameters;
+                            - Other instances methods in C;
+                            - Methods in objects that it creates;
+
+Page 134 - Don't chain call methods 
+                -> amount = customers.orders.last().totals().amount (chain call)
+
+Page 136 - Global data produces coupling and make the code more rigid, one change on the global may break everything.
+
+Page 136 PP - Wrap resources behind code that you control (DB, Service API, File System, ...).
+
++ Code should only deal with things it directly know about.

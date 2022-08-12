@@ -1,0 +1,49 @@
+Events - Can be a user clicking a button, a search finishes, the result of a 
+calculation is ready.
+
+App that respond to those events are better.
+
+Four strategies:
+  - Finite state machines;
+  - The Observer Pattern;
+  - Publish / Subscribe;
+  - Reactive programming and Streams;
+
+Finite State Machines:
+
+    They are machines with limited actions
+
+    They look like in code:
+      
+      const machines = {
+        initialState: "awake",
+        transitions: {
+          tired: ( do something and change state ),
+          superTired: ( do something and change state ),
+          sleeping: ( do something and go to initial state )
+        },
+        dispatch: ( do an action and do a transition ),
+        changeState: ( called inside transitions, really change the state)
+      }
+
+      Then in posterior code logic, you change the state and do what you want
+      with the machine.
+
+Observer Pattern:
+    
+    X function/class is observed and Y/Z/A/B/... observe, when X changes, it sends
+    this change to Y/Z/A/B/...
+
+    This pattern look like in code:
+      
+      class observedClass {
+        constructor(observers) {
+          this.observers = observers
+        }
+
+        subscribe() // Add an observer
+
+        unsubscribe() // Removes an observer
+
+        notify() // Notify all the observers of a change, and the observers do    what they want with that change/data
+      }

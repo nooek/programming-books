@@ -1,0 +1,4 @@
+Page 107 - Be strict on what you will accept before you begin, and promise
+as little as possible in return. -> A function should have everything it need and 
+will possibly need before it executes and should return ONLY what it needs to return,
+what it is meant to return. And this return shouldn't be much.

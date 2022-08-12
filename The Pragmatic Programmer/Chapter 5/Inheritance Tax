@@ -1,0 +1,26 @@
+Page 158 - The problems of inheritance: Coupled code, the child classes are linked to the main class.
+
+So in:
+  
+    class Vehicle {
+      constructor(speed) {
+        this.speed = speed;
+      }
+
+      speedUp() {
+        this.speed + 1;
+      }
+    }
+
+    class Car extends Vehicle {
+      showInfo() {
+        return `Driving at ${this.speed}km/h`
+      }
+    }
+
+Car depends on the speed var provided by the Vehicle class, this generates coupling
+
+How to avoid inheritance problems:
+  - Interfaces;
+  - Delegation;
+  - Mixins And Traits;

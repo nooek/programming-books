@@ -1,0 +1,9 @@
+Page 147 - Programs are something that transforms input in an output. Think that way.
+
+Page 153 - Think of data as a mighty river, a flow (More used in functional programming).
+
+Page 157 - Think of code as a series of (nested) transformations
+
+Example: Someone logging in a web app
+
+User Credentials -> Session (A transformation of the user credentials into a session)

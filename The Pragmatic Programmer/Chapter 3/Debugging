@@ -1,0 +1,13 @@
+Page 90 - Always try to discover the root cause of a problem.
+
+Page 91 - Isolating parts of the code might give one insight on how to solve the bug.
+
+Most of the time the errors are our problem, not caused by the system or other external factor (blame yourself).
+ 
+ What to do if there are thousands of lines of code?
+
+   Logging and/or Tracing - Basically logs to know where you are and what you are doing on this place. If a loop fails, put logs on that loop to know WHERE and/or WHEN it fails, it might give a insight.
+
+   Rubber Ducking - Schizophenia 
+
+   Working around - Analyze your problem, what's it and how would it fail, if you have an idea where this problem is, analyze every single line of code. Your error can be a typo, a logic error or even a wrong parameter passed in a function. Expend time analyzing your work might reveal the problem, even if it's stupid.

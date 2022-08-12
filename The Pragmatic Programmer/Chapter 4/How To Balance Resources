@@ -1,0 +1,4 @@
+Page 118 - Finish what you start, a routine that allocates a resource should also
+free it.
+
+Page 121 - It always pays to reduce scope.

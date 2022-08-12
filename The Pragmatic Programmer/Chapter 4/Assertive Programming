@@ -1,0 +1,4 @@
+Page 115 - Don't use assetions for normal error handling, just for things that
+would "never" happen.
+
++ Errors should not rely on broken data info.

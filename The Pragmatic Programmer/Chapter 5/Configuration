@@ -1,0 +1,10 @@
+Page 166 - Parametize your app using external config
+
+Things that are usually in a config data:
+  - Credentials for external services;
+  - Post, IP Address;
+  - License Keys;
+
+You can put them in a file, like a .env file, but a API is better, since it can share the config between multiple projects and change it.
+
+Page 168 - Code that are not easily adaptable die faster.
