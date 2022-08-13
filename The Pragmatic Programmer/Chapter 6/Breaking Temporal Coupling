@@ -1,0 +1,3 @@
+Page 171 - Method A must always run/be called before method B. Tick must happen before tock. This is not flexible, it's temporal coupling
+
+Page 173/174 - Use all the hardware power and split work between them. Make a performance boost.

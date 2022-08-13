@@ -1,0 +1,20 @@
+Atomic Properties:
+  Given: point = CGPoint(x: 10, y: 10) and 3 threads
+
+  Thread A tries to read the point;
+  Thread B sets the point = CGPoint(x: 1, y: 1);
+  Thread C sets the point = CGPoint(x: 5, y: 5);
+
+  Thread A can return:
+    { x: 10, y: 10 }
+    { x: 1, y: 1 }
+    { x: 5, y: 5 }
+
+
+Non Atomic Properties:
+  In the same situation, thread A returns an unknown value. Can be even { x: 5, y: 1 } since two threads are trying to set the value at the same time
+
+Difference between Atomic and Non Atomic:
+  Non Atomic set the property value directly and are faster. But returns a unknown value.
+
+  Atomic uses locks to protect the set operation and returns a correct value. But are slower.

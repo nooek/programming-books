@@ -1,0 +1,21 @@
+Page 175 - If there's one state and two actions are using it, this is a chance for problems.
+
+Example:
+
+  Given variable state = { x: 1 }
+
+  Code 1:
+    if (state.x > 0) {
+      givePositiveInt(state.x)
+      state.x = state.x - 1
+    }
+
+  Code 2: Does the same as Code 1
+
+  If those codes run at the same time, both will se state.x > 0, but only one will be able to execute right
+
+  How to avoid that?
+
+    - We can create 2 states;
+    - Lock the access to the state in the code that runs first nad then unlock it for the other piece of code, that's when atomic properties comes in, it locks the access, so it doesn't give unexpected behaviours;
+    - Use actor (see page 182 - 185)
