@@ -1,0 +1,16 @@
+Page 274 - Pragmatic Starter Kit:
+              - Version Control;
+              - Regression Testing;
+              - Full Automation;
+
+Version Control: Just a version control system, like Git.
+
+Regression Testing:
+
+  We want to start testing as soons as we have code.
+
+  Unit Tests - Tests the modules, one by one.
+
+  Integration Tests - An expense of unit testing, it tests entire subsystems.
+
+  Once a human tester finds a bug, it should be the last time a human teste finds that bug.
