@@ -1,0 +1,14 @@
+Page 211 - When you should refactor:
+            - Duplication;
+            - Nonorthogonal Design;
+            - Outdated knowledge;
+            - Usage (as the system gets used);
+            - Performance;
+            - The test pass;
+
+Page 213 - 
+            1 - Don't try to refactor and add functionality at the same time;
+            2 - Have good tests before refactoring;
+            3 - Take short steps;
+
++ Don't live with broken windows.

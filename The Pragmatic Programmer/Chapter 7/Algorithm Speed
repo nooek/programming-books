@@ -1,0 +1,16 @@
+Page 203 - We find that whenever we write anything containing loops or recursive calls, we check the runtime and memory requirements.
+
+Big-O Notation 
+
+O(1) - Constant
+O(log n) - Binary Search
+O(n) - Sequential search (linear)
+O(n log n) - Quick sort / heapsort
+O(n²) - Selection and Insertion sorts
+
+Simple Loops - O(n)
+Nested Loops - O(m x n)
+Binary Chop - O(log n)
+Divide And Conquer - O(n log n)
+
+Page 208 - The fastest one is not always the best for the job. Consider difficult of doing the fastest one, does it really makes any difference in the final performance? Sometimes the slow and cleaner code one is better.

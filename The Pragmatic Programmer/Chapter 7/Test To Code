@@ -1,0 +1,7 @@
+Page 218 - Build small pieces of end-to-end functionality. Involve the customers and let them guide the proccess.
+
+Page 220 - Test against contract, make sure a contract is full, it receives what it wants and it delivers what it has to.
+
+Page 221 - AD HOC testing: Console.log(), debugger etc
+
++ Think about what must not change and what must be true, test those things;
