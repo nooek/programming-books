@@ -1,0 +1,8 @@
+Page 231 - You need to consider how an external actor can screw up the system
+
++ Security basic principles:
+    - Minimize attack surface area;
+    - Principle of least privilege;
+    - Secure details;
+    - Encrypt sensitive data;
+    - Mantain security updates;
